@@ -2,28 +2,30 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
-// @import "compass/reset";
-
+/* line 8, ../sass/style.scss */
 body {
-  font-family: Helvetica, Arial, sans-serif;  
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 35px;
-  
-  @media all and (min-width: 600px) {
-    font-size: 75px; 
-    
-    h1 {
-      letter-spacing: -8px;
-    }    
+}
+@media all and (min-width: 600px) {
+  /* line 8, ../sass/style.scss */
+  body {
+    font-size: 75px;
+  }
+  /* line 15, ../sass/style.scss */
+  body h1 {
+    letter-spacing: -8px;
   }
 }
 
+/* line 21, ../sass/style.scss */
 .wrap {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 
+/* line 27, ../sass/style.scss */
 h1, h2, h3 {
   margin-bottom: 0;
   margin-top: .25em;
@@ -32,18 +34,21 @@ h1, h2, h3 {
   font-family: Raleway;
 }
 
+/* line 35, ../sass/style.scss */
 h1 {
   text-transform: uppercase;
-  font-weight: bold; 
+  font-weight: bold;
   color: #333;
   letter-spacing: -4px;
 }
 
+/* line 42, ../sass/style.scss */
 h2 {
   font-size: .66em;
   margin-bottom: .4em;
 }
 
+/* line 47, ../sass/style.scss */
 h3 {
   color: #555;
   font-size: .4em;
