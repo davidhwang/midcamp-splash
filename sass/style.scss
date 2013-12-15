@@ -37,6 +37,10 @@ h1 {
   font-weight: bold; 
   color: #333;
   letter-spacing: -4px;
+  background: url('http://farm3.staticflickr.com/2660/3715569167_7e978e8319_z.jpg'), transparent;
+  background-position: 100% 50%;
+  color: transparent;
+  -webkit-background-clip: text;
 }
 
 h2 {

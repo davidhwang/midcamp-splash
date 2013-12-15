@@ -40,15 +40,24 @@ h1 {
   font-weight: bold;
   color: #333;
   letter-spacing: -4px;
+  color: #333;
+  background: none;
 }
 
-/* line 42, ../sass/style.scss */
+.webkit h1 {
+  background: url("http://farm3.staticflickr.com/2660/3715569167_7e978e8319_z.jpg"), transparent;
+  background-position: 100% 50%;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+/* line 46, ../sass/style.scss */
 h2 {
   font-size: .66em;
   margin-bottom: .4em;
 }
 
-/* line 47, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 h3 {
   color: #555;
   font-size: .5em;
